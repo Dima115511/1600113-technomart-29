@@ -1,0 +1,248 @@
+:root {
+    --basic-gray-dark: #293449;
+    --basic-gray: #32425C;
+    --basic-red: #EE3643;
+    --basic-greylight: #C5C5C5;
+    --basic-white: #ffffff;
+    --basic-background: #F1F5F7;
+    --basic-black: #000000;
+  
+    --special-yellow: #FFBF47;
+    --special-yellow: #3BBCE3;
+    --special-yellow: #DC91D8;
+    --special-yellow: #8ED78F;
+    --special-yellow: #FFD180;;
+  }
+  
+  
+  
+  /* Heder */
+
+header{
+    font-family: "Cuprum";
+    background-color: #F1F5F7;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    list-style: none; 
+  }
+.main,
+.main-footer{
+    text-align: center;
+    box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.24);
+    background: #EE3643;
+    border: none;
+  }
+  .header-phone {
+    font-family: "Cuprum";
+    color: #EE3643;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+    background: #F3F7F9;
+    border: 3px solid #FFFFFF;
+  }
+  .contacts-header {
+    font-family: "Cuprum";
+    color: #32425C;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+.header-top{
+      background-color: #293449;
+      color: white;
+      align-items: center;
+  }
+       
+.main-menu{
+    background-color:  #32425C;
+    color: white;
+    box-shadow: inset 0px -5px 0px #293449;
+}
+.order{
+    background-color: #63A63E;
+    width: 140px;
+    height: 42px;
+  }
+
+  /*survices*/
+
+  .services-materials{
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #FFBF47; 
+  color: white;
+}
+.services-instruments{
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #3BBCE3; 
+  color: white;
+
+}
+.services-technics{
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #DC91D8; 
+  color: white;
+
+}
+.services-discount{
+  font-family: "Cuprum";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  background-color: #8ED78F;
+  color: white;
+
+}
+.services-delivery{
+    font-family: "Cuprum";
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    background-color: #FFBF47; 
+    color: white;
+}
+.services-link{
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+ img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+
+body{
+      color: black;  
+      font-family: "Cuprum";  
+  }
+  footer{
+    font-family: "Cuprum";
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: var(--basic-gray);
+  }
+
+/*list-style*/
+
+.main-menu,
+.services,
+.product,
+.footer-nav,
+.footer-menu,
+.partners,
+.socials {
+    list-style: none;
+  }
+
+.main-menu a,
+.header-top a,
+.services-menu a,
+.footer-nav a,
+.main-footer,
+.main a,
+.socials a {
+  color: white;
+}
+.footer-menu a,
+.academy {
+  color: #FFD180;
+}
+
+.Loginform a,
+.product a{
+  color: black;
+}
+
+  .desc{
+    color: #EE3643;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 23px;
+  }
+.popular{
+    background-color: #F9F5F0;
+    color: #32425C;
+    font-family: "Cuprum";
+    font-size: 30px;
+    line-height: 30px;
+
+
+  }
+.btn-price{
+  background-color: #EE3643;
+  color: white;
+  font-family: "PT Sans";
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+}
+
+  /*button*/
+
+.button-allproducts,
+.button-allpartners,
+.button-company,
+.button-write {
+    background-color: #EE3643;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+  }
+ .old-price{
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #A9A9A9;
+  text-align: center;
+}
+.text{
+font-family: "PT Sans";
+font-size: 13px;
+line-height: 24px;
+color: black;
+}
+.tit{
+font-family: "Cuprum";
+font-size: 30px;
+line-height: 30px;
+color: black;
+}
+.delivery{
+  color: #32425C;
+}
+
+.services{
+  background-color: var(--basic-background);
+}
+a {
+  text-decoration: none;
+}
+.footer-phone{
+  color: inherit;
+}
+.socials {
+  color: inherit;
+  text-align: center;
+}
+
+
