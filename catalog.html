@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+div<!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -12,7 +16,7 @@
         <a href="#">Поиск</a>
         <a href="#">Закладки</a>
         <a href="#">Корзина</a>
-        <a href="#">Оформить заказ</a>
+        <a class="order" href="#">Оформить заказ</a>
     </div> 
       
       <div class="desc">
@@ -20,12 +24,12 @@
         строительных материалов<br>
         и инструментов для ремонта
       </div>
-      <p class="contacts-header"><a class="header-phone" href="tel: +78125550555">+7 (812) 555-05-55</a></p><br> 
-        г.Санкт-Петербург, ул. Б.Конюшюшенная, д.19.8</p>
-    <div class="account">
+      <a class="header-phone" href="tel: +78125550555">+7 (812) 555-05-55</a><br> 
+      <div class="contacts-header">г.Санкт-Петербург, ул. Б.Конюшюшенная, д.19.8</div>
+    <div class="Loginform">
       <a href="blank.html">Равшан джамшутович</a>
-      <a href="blank.html">Мои заказы</a>
-      <a href="blank.html">Личный кабинет</a>
+      <a class="account" href="blank.html">Мои заказы</a>
+      <a class="account" href="blank.html">Личный кабинет</a>
     </div>
 
       <nav>
@@ -41,9 +45,9 @@
     </nav>  
   </header> 
 
-  <main>
+  <main class="catalog">
       
-      <ul>
+      <ul class="breadcrumbs">
           <li>
               <a href="blank.html">Главная</a>
           </li>
@@ -56,10 +60,12 @@
             <li>
                 Перфараторы
             </li>
-            <h1>Перфараторы</h1>
-            <div class="filtr">Фильтр:</div>
+            <h1 class="perforator">Перфараторы</h1>
+            <div class="sorting">Фильтр:</div>
             <div class="main-filtr">Цена:</div>
-            0 <input type="range" name="priceoutput" min="0" max="30000"> 30000
+            <div class="sorting">
+             0 <input type="range" name="priceoutput" min="0" max="30000"> 30000
+          </div>
             <div class="main-filtr">Производители</div>
             <ul class="filtr">
               <li>bosch</li>
@@ -75,13 +81,13 @@
             </ul>
             <button type="button">Показать</button>
       </ul>
-      <h3 class="filtr">Сортировка:</h3>
-      <ul class="filtr">
-          <li>по цене</li>
-          <li>по типу</li>
-          <li>по функционалу</li>
-          <li><button type="button">Вверх</button></li>
-          <li><button type="button">Вниз</button></li>
+      <h3 class="sorting">Сортировка:</h3>
+      <ul class="sorting">
+          <li class="filtr-price">по цене</li>
+          <li class="filtr-type">по типу</li>
+          <li class="filtr-functional">по функционалу</li>
+          <li><button class="filtr-top" type="button">Вверх</button></li>
+          <li><button class="filtr-battom" type="button">Вниз</button></li>
       </ul>
       <section>
           <ul class="product">
@@ -94,7 +100,7 @@
                   </a>
                   <div class="price">
                     <del class="old-price">30 500P.</del>
-                    <button class="btn-price" type="button">25 500P.</button>
+                    <div class="btn-price">25 500P.</div>
               </li>
               <li>
                 <a href="product.html">
@@ -105,7 +111,7 @@
                   </a>
                   <div class="price">
                     <del class="old-price">30 500P.</del>
-                    <button class="btn-price" type="button">25 500P.</button>
+                    <div class="btn-price">25 500P.</div>
               </li>
               <li>
                 <a href="product.html">
@@ -116,7 +122,7 @@
                   </a>
                   <div class="price">
                     <del class="old-price">30 500P.</del>
-                    <button class="btn-price" type="button">25 500P.</button>
+                    <div class="btn-price">25 500P.</div>
                     <button type="button">Купить</button>
                     <button type="button">В Закладки</button>
               </li>
@@ -129,9 +135,9 @@
               </div>
             </a>
             <div class="price">
-              <b>new</b>
+              <b class="new">new</b>
               <del class="old-price">22 500P.</del>
-              <button class="btn-price" type="button">15 500P.</button>
+              <div class="btn-price">15 500P.</button>
             </li>
             <li>
                 <a href="product.html">
@@ -142,9 +148,9 @@
                   </a>
                   <div class="price">
                     <del class="old-price">30 500P.</del>
-                    <button class="btn-price" type="button">25 500P.</button>
+                    <div class="btn-price">25 500P.</div>
               </li>
-              <li class="new product">
+              <li>
             </div>
             <a href="product.html">
               <h3>Перфоратор BOSCH BFG 2000</h3>
@@ -153,8 +159,8 @@
               </div>
             </a>
             <div>
-              <b>new</b>
-              <button class="btn-price" type="button">12 500P.</button>
+              <b class="new">new</b>
+              <div class="btn-price">12 500P.</div>
               </div>
           </li>
           <li>
@@ -166,9 +172,9 @@
           </div>
         </a>
         <div class="price">
-          <b>new</b>
+          <b class="new">new</b>
           <del class="old-price">22 500P.</del>
-          <button class="btn-price" type="button">15 500P.</button>
+          <div class="btn-price">15 500P.</div>
         </li>
         <li>
             <a href="product.html">
@@ -179,9 +185,9 @@
               </a>
               <div class="price">
                 <del class="old-price">30 500P.</del>
-                <button class="btn-price" type="button">25 500P.</button>
+                <div class="btn-price">25 500P.</div>
           </li>
-          <li class="new product">
+          <li>
         </div>
         <a href="product.html">
           <h3>Перфоратор BOSCH BFG 2000</h3>
@@ -190,24 +196,25 @@
           </div>
         </a>
         <div class="price">
-          <b>new</b>
-          <button class="btn-price" type="button">12 500P.</button>
+          <b class="new">new</b>
+          <div class="btn-price">12 500P.</div>
           </div>
       </li>
       </ul>
       <ul class="pages">
           <li><a>1</a></li>
-          <li><a href="">2</a></li>
+          <li><a class="page-current" href="">2</a></li>
           <li><a href="">3</a></li>
           <li><a href="">Следующая</a></li>
 
       </ul>
       </section>
-
+<div class="about-perforator">
       <h3 class="tit">ПАРА СЛОВ О ПЕРФОРАТОРАХ</h3>
     <p class="text">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
       Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
       В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+    </div>
      
   </main>
 
@@ -247,10 +254,10 @@
     </ul>
   
     <p>Обратная связь:<br>
-    <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+    <a class="academy" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
   <p>
     Разработано-<br>
-    <a href="https://htmlacademy.ru">HTML Academy</a>
+    <a class="academy" href="https://htmlacademy.ru">HTML Academy</a>
   </p>
 </footer>
 

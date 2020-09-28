@@ -136,6 +136,29 @@ body{
     line-height: 24px;
     background-color: var(--basic-gray);
   }
+  .catalog{
+    font-family: "PT Sans";
+    font-size: 13px;
+    line-height: 18px;
+  }
+.product li{
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+}
+.pages li{
+  list-style: none;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.page-current,
+.page-current a,
+.page-current a:hover,
+.page-current a:focus,
+.page-current a:active {
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
 
 /*list-style*/
 
@@ -147,7 +170,7 @@ body{
 .partners,
 .socials {
     list-style: none;
-  }
+}
 
 .main-menu a,
 .header-top a,
@@ -164,7 +187,9 @@ body{
 }
 
 .Loginform a,
-.product a{
+.product a,
+.pages a,
+.breadcrumbs a{
   color: black;
 }
 
@@ -190,10 +215,58 @@ body{
   font-size: 17px;
   line-height: 18px;
   font-weight: bold;
-  text-align: center;
   border: none;
 }
+.breadcrumbs{
+  list-style: none;
+}
+.filtr-price{
+  color: var(--basic-red);
+}
+.filtr-type,
+.filtr-functional{
+  opacity: 0.3;
+  border-bottom: 1px dotted red;
+}
+.sorting{
+  list-style: none;
+}
 
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: underline;
+}
+.sorting{
+  background-color: #F7F3EC;
+}
+.new{
+  font-family: "Cuprum";
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #EE3643;
+  color: var(--basic-white);
+}
+.service-warranty,
+.service-credit{
+  background-color: var(--basic-gray);
+  color: var(--basic-white);
+  font-family: "Cuprum";
+  font-size: 21px;
+  line-height: 30px;
+  box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+
+}
+.service-delivery{
+  background-color: var(--basic-white);
+  color: var(--basic-gray);
+  font-family: "Cuprum";
+  font-size: 21px;
+  line-height: 30px;
+  list-style: none;
+  box-shadow: 0px 1px 0px #FFFFFF;
+
+
+}
   /*button*/
 
 .button-allproducts,
@@ -231,7 +304,9 @@ color: black;
   color: #32425C;
 }
 
-.services{
+.services,
+.perforator,
+.about-perforator{
   background-color: var(--basic-background);
 }
 a {
