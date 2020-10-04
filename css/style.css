@@ -54,12 +54,22 @@ header{
       background-color: #293449;
       color: white;
       align-items: center;
+      Width: 1200px;
+      Height: 42px;
   }
        
 .main-menu{
     background-color:  #32425C;
     color: white;
     box-shadow: inset 0px -5px 0px #293449;
+    Width: 940px;
+    Height: 60px;
+
+}
+ul.main-menu li,
+ul.breadcrumbs li,
+ul.sorting li{
+  display: inline;
 }
 .order{
     background-color: #63A63E;
@@ -76,6 +86,8 @@ header{
   line-height: 30px;
   background-color: #FFBF47; 
   color: white;
+  Width: 300px;
+  Height: 123px;
 }
 .services-instruments{
   font-family: "Cuprum";
@@ -84,7 +96,8 @@ header{
   line-height: 30px;
   background-color: #3BBCE3; 
   color: white;
-
+  Width: 300px;
+  Height: 123px;
 }
 .services-technics{
   font-family: "Cuprum";
@@ -93,7 +106,8 @@ header{
   line-height: 30px;
   background-color: #DC91D8; 
   color: white;
-
+  Width: 300px;
+  Height: 123px;
 }
 .services-discount{
   font-family: "Cuprum";
@@ -102,7 +116,8 @@ header{
   line-height: 30px;
   background-color: #8ED78F;
   color: white;
-
+  Width: 300px;
+  Height: 123px;
 }
 .services-delivery{
     font-family: "Cuprum";
@@ -111,6 +126,8 @@ header{
     line-height: 30px;
     background-color: #FFBF47; 
     color: white;
+    Width: 300px;
+    Height: 123px;
 }
 .services-link{
   font-family: "Cuprum";
@@ -144,6 +161,8 @@ body{
 .product li{
   border: 1px solid #EAEAEA;
   box-sizing: border-box;
+  Width: 220px;
+  Height: 318px;
 }
 .pages li{
   list-style: none;
@@ -190,7 +209,7 @@ body{
 .product a,
 .pages a,
 .breadcrumbs a{
-  color: black;
+color: black;
 }
 
   .desc{
@@ -236,6 +255,7 @@ body{
 .breadcrumbs a:focus {
   text-decoration: underline;
 }
+.filtr-range,
 .sorting{
   background-color: #F7F3EC;
 }
@@ -247,6 +267,7 @@ body{
   color: var(--basic-white);
 }
 .service-warranty,
+.service-delivery,
 .service-credit{
   background-color: var(--basic-gray);
   color: var(--basic-white);
@@ -254,19 +275,11 @@ body{
   font-size: 21px;
   line-height: 30px;
   box-shadow: 0px 1px 0px #293449, inset 0px 1px 0px #405069;
+  Width: 240px;
+  Height: 61px;
 
 }
-.service-delivery{
-  background-color: var(--basic-white);
-  color: var(--basic-gray);
-  font-family: "Cuprum";
-  font-size: 21px;
-  line-height: 30px;
-  list-style: none;
-  box-shadow: 0px 1px 0px #FFFFFF;
 
-
-}
   /*button*/
 
 .button-allproducts,
@@ -280,6 +293,8 @@ body{
     text-align: center;
     border: none;
   }
+
+
  .old-price{
   font-family: "PT Sans";
   font-weight: bold;
@@ -320,4 +335,12 @@ a {
   text-align: center;
 }
 
+.perforator{
+  width: 940px;
+  height: 89px;
+}
+.sorting{
+  width: 220px;
+  height: 38px;
+}
 
